@@ -1,0 +1,679 @@
+@media only screen and (min-width: 420px){
+
+    .nav_section .nav{
+        display: none;
+    }
+
+    .nav_section .logo{
+        width: 50%;
+        padding-left: .2rem;
+    }
+
+    .nav_section .logo h1{
+        font-size: 1.4rem;
+    }
+
+    @keyframes leftright{
+        from{ padding-left: 2rem; }
+        to{ padding-right: 2rem; }
+    }
+
+    .left_side{
+        width: 80%;
+    }
+
+    .left_side h2::before{
+        top: 16.5rem;
+    }
+
+    .left_side h1{
+        font-size: 2.3rem;
+    }
+
+    .left_side h3{
+        font-size: 1.5rem;
+    }
+
+    .left_side .bunt .btn{
+        font-size: 1.5rem;
+    }
+
+    .right_side{
+        width: 20%;
+    }
+
+    .right_side .cercle{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    /* about section  */
+    /* about section  */
+    /* about section  */
+
+    .about .container .content .left_about{
+        width: 100%;
+        margin: 0;
+    }
+
+    .about .container .content .right_about{
+        width: 100%;
+        margin: 0;
+    }
+
+    .content .right_about .project{
+        margin: 12rem 0 0 0;
+    }
+
+    .content .left_about .image_me{
+        width: 90%;
+    }
+
+    .content .left_about ul li{
+        margin: 1rem .5rem 0 .5rem;
+    }
+
+    .social_link .tag{
+        margin: .5rem 2.7rem 0 2.7rem;
+    }
+
+    .content .right_about .project .hire_link img{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .social_link .link_social{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social_link .link_social span a{
+        padding: .8rem 1.5rem;
+    }
+
+    .content .right_about .project h1{
+        font-size: 2.4rem;
+    }
+
+    .right_about .project .proimage img{
+        display: none;
+    }
+
+    /* Skills section  */
+    /* Skills section  */
+    /* Skills section  */
+
+    .row .col{
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+
+    /* Contact section  */
+
+    .contact .container .content .row{
+        display: inline-block;
+        margin: 3rem 0;
+    }
+
+    .container .content .row .contact_l{
+        width: 100%;
+    }
+    
+    .container .content .row  .contact_r{
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .contact .container .content .row::before{
+        top: 30%;
+        left: 30%;
+        width: 20rem;
+        height: .1rem;
+        transform: rotate(180deg);
+        margin-top: 2rem;
+    }
+
+    .container .content .row .left_cont h2{
+        font-size: 1.6rem;
+        margin-bottom: .5rem;
+    }
+
+    .container .content .row .left_cont .informson{
+        margin-top: 1rem;
+    }
+
+    .row .left_cont .informson ul li{
+        font-size: 1.5rem;
+    }
+
+    .row .left_cont .informson ul li i{
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .row .left_cont .informson ul li span{
+        font-size: 1.8rem;
+    }
+
+    .row .contact_r h3{
+        font-size: 1.6rem;
+        display: inline-block;
+    }
+
+    .row .contact_r form .nande{
+        display: inline-block;
+    }
+
+    .row .contact_r form .nande input{
+        margin: .7rem 0;
+    }
+
+    .row .contact_r form .send .btns{
+        margin-left: 40%;
+    }
+
+    .contact_div2{
+        top: 100%;
+        right: 4%;
+    }
+
+    /* footer  */
+
+    .footer{
+        margin-top: 35rem;
+    }
+
+    .footer .container .content .s_link{
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer .container .content .s_link ul li a{
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 1rem;
+        letter-spacing: .1rem;
+    }
+
+    .footer .container .content .down_fot p{
+        font-size: 1.5rem;
+    }
+
+    .footer .container .content .down_fot p a{
+        font-size: 1.9rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 554px){
+
+    html{
+        font-size: 52.5%;
+    }
+
+    .nav_section .nav{
+        display: none;
+    }
+
+    .nav_section .logo{
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    .nav_section .logo h1{
+        font-size: 1.8rem;
+    }
+
+    @keyframes leftright{
+        from{ padding-left: 6rem; }
+        to{ padding-right: 6rem; }
+    }
+
+    .left_side{
+        width: 85%;
+    }
+
+    .left_side h2::before{
+        top: 16.5rem;
+    }
+
+    .left_side h1{
+        font-size: 3.5rem;
+    }
+
+    .left_side h3{
+        font-size: 2.3rem;
+    }
+
+    .right_side{
+        width: 15%;
+    }
+
+    .right_side .cercle{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    /* about section  */
+    /* about section  */
+    /* about section  */
+
+    .about .container .content .left_about{
+        width: 100%;
+        margin: 1.5rem;
+    }
+
+    .about .container .content .right_about{
+        width: 100%;
+    }
+
+    .content .right_about .project{
+        margin: 8rem 1rem 0 0;
+    }
+
+    .content .left_about .image_me{
+        width: 85%;
+    }
+
+    .content .left_about ul li{
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .social_link .link_social{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social_link .link_social span a{
+        padding: .8rem 1.5rem;
+    }
+
+    .content .right_about .project h1{
+        font-size: 2.4rem;
+    }
+
+    .right_about .project .proimage img{
+        display: none;
+    }
+    .right_about .project .proimage img{
+        display: block;
+        width: 16rem;
+    }
+
+    /* skills section */
+    /* skills section */
+    /* skills section */
+
+    .row .col{
+        width: 45%;
+    }
+
+     /* footer  */
+
+     .footer{
+        margin-top: 30rem;
+    }
+
+    .footer .container .content .s_link ul li a{
+        font-size: 1.5rem;
+    }
+
+    .footer .container .content .down_fot p{
+        font-size: 1.8rem;
+    }
+
+    .footer .container .content .down_fot p a{
+        font-size: 2rem;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+    html{
+        font-size: 52.5%;
+    }
+
+    .nav_section .nav{
+        display: none;
+    }
+
+    .nav_section .logo{
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    @keyframes leftright{
+        from{ padding-left: 6rem; }
+        to{ padding-right: 6rem; }
+    }
+
+    .left_side{
+        width: 75%;
+    }
+
+    .left_side h2::before{
+        top: 16.5rem;
+    }
+
+    .left_side h1{
+        font-size: 4.3rem;
+    }
+
+    .right_side{
+        width: 25%;
+    }
+
+    /* about section  */
+    /* about section  */
+    /* about section  */
+
+    .about .container .content .left_about{
+        width: 35%;
+        margin: 4rem;
+    }
+
+    .about .container .content .right_about{
+        width: 65%;
+        margin: 8rem 3.8rem 0 0;
+    }
+
+    .content .left_about .image_me{
+        width: 90%;
+    }
+
+    .content .left_about ul li{
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .social_link .link_social{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social_link .link_social span a{
+        padding: .8rem 1.5rem;
+    }
+
+    .content .right_about .project h1{
+        font-size: 2.4rem;
+    }
+
+    .content .right_about .project .hire_link img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .right_about .project .proimage img{
+        display: block;
+        width: 24rem;
+    }
+
+    /* skills section */
+    /* skills section */
+    /* skills section */
+
+    .row .col{
+        width: 45%;
+    }
+
+    /* contact section  */
+
+    .row .contact_r form .nande{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .row .contact_r form .nande input{
+        margin: .5rem;
+    }
+
+    .contact .container .content .row::before{
+        top: 33%;
+        left: 36%;
+    }
+
+     /* footer  */
+
+     .footer{
+        margin-top: 25rem;
+    }
+
+    .footer .container .content .s_link ul li a{
+        font-size: 1.5rem;
+    }
+
+    .footer .container .content .down_fot p{
+        font-size: 1.8rem;
+    }
+
+    .footer .container .content .down_fot p a{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 968px){
+
+    html{
+        font-size: 58.5%;
+    }
+
+    .nav_section .nav{
+        display: none;
+    }
+
+    .nav_section .logo{
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    @keyframes leftright{
+        from{ padding-left: 6rem; }
+        to{ padding-right: 6rem; }
+    }
+
+    .left_side h2::before{
+        top: 16.5rem;
+    }
+
+    .left_side h1{
+        font-size: 4.3rem;
+    }
+
+    /* about section  */
+
+    .about .container .content .left_about{
+        width: 35%;
+    }
+
+    .about .container .content .right_about{
+        width: 65%;
+    }
+
+    .content .left_about .image_me{
+        width: 80%;
+    }
+
+    .content .right_about .project h1{
+        font-size: 3rem;
+    }
+
+    .right_about .project .proimage img{
+        width: 24rem;
+    }
+
+    /* skills section  */
+    /* skills section  */
+    /* skills section  */
+
+    .row .col{
+        width: 22%;
+    }
+
+    /* contact section  */
+
+    .contact .container .content .row::before{
+        content: '';
+        position: absolute;
+        top: 45%;
+        left: 36%;
+        width: 20rem;
+        height: .1rem;
+        background: rgb(0, 0, 0);
+        transform: rotate(90deg);
+    }
+
+    .contact .container .content .row{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem;
+        background: rgba(255, 255, 255, 0.075);
+        box-shadow: 0px 0px 47px -8px rgba(0,0,0,0.2);
+        backdrop-filter: blur(1rem);
+        border-radius: 2rem;
+        margin-top: 4rem;
+    }
+
+    .container .content .row .left_cont h2{
+        font-size: 2.5rem;
+    }
+
+    .row .left_cont .informson ul li{
+        font-size: 2rem;
+    }
+
+    .row .left_cont .informson ul li i{
+        font-size: 2.5rem;
+        width: 5rem;
+        height: 5rem;
+        line-height: 5rem;
+    }
+
+    .row .left_cont .informson ul li span{
+        font-size: 2rem;
+    }
+
+    .row .contact_r h3{
+        display: inline-block;
+        font-size: 2.5rem;
+    }
+
+    /* footer  */
+
+    .footer{
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    html{
+        font-size: 62.5%;
+    }
+
+    .nav_section .nav{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav_section .logo{
+        width: 30%;
+        padding-left: 1rem;
+    }
+
+    .left_side h2::before{
+        top: 18rem;
+    }
+
+    .left_side h1{
+        font-size: 4.6rem;
+    }
+
+    .mobial{
+        display: none;
+    }
+
+    .bars{
+        display: none;
+    }
+
+    /* About section  */
+
+    .about .container .content .left_about{
+        width: 25%;
+    }
+
+    .about .container .content .right_about{
+        width: 70%;
+    }
+
+    .right_about .project .proimage img{
+        width: 27rem;
+    }
+
+    /* work section  */
+
+    .work .content .allworks{
+        margin-top: 10rem;
+    }
+
+    /* contact section  */
+
+    .contact .container .content .row{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem;
+        margin-left: 8%;
+        background: rgba(255, 255, 255, 0.075);
+        box-shadow: 0px 0px 47px -8px rgba(0,0,0,0.2);
+        backdrop-filter: blur(1rem);
+        border-radius: 2rem;
+        margin-top: 4rem;
+    }
+
+    .contact_div2{
+        position: absolute;
+        top: 68%;
+        width: 20rem;
+        height: 20rem;
+        background: #FF1493;
+        box-shadow: 0px -3px 20px -13px rgba(0,0,0,0.2),
+        0px 3px 20px -13px rgba(0,0,0,0.2);
+        border-radius: 50%;
+        right: 4%;
+    }
+
+    /* footer  */
+
+    .footer{
+        margin-top: 15rem;
+        width: 100%;
+    }
+
+}
